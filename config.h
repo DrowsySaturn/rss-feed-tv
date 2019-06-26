@@ -1,3 +1,13 @@
+/* This loads parses all of the settings in a toml file and saves them as
+ * public member variables in the Config object. Any values missing in the
+ * toml file will have backup default values.
+ * 
+ * Example usage:
+ * 
+ * Config config("settings.toml");
+ * std::cout << config.feedUri << std::endl;
+ */
+
 #pragma once
 
 #include <string>

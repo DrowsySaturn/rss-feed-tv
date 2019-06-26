@@ -1,3 +1,8 @@
+/* This file converts an RSS XML string into objects containing the title and
+ * description of each post in the RSS XML string.
+ * 
+ * All HTML is removed from the description as well as most non-alphanumeric characters.
+ */
 #pragma once
 
 #include <rapidxml.hpp>

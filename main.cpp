@@ -1,3 +1,7 @@
+/* This is the main file in the project. This project loads a configuration and
+ * displays a fullscreen RSS feed based on the URI specified in the config.
+ */
+
 #include "http.h"
 #include "display.h"
 #include "rss.h"

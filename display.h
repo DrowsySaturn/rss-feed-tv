@@ -1,3 +1,18 @@
+/* This file contains all of the code to draw 'cards'. The user initializes
+ * the display and then draws their desired cards.
+ * 
+ * Example usage:
+ * 
+ * Display display;
+ * while (!display.IsClosed())
+ * {
+ *  display.Clear();
+ *  display.FeedBox("title", "this is the description", 15); // Draw a card
+ *  // Draw more cards or shapes here.
+ *  display.UpdateWindow();
+ * }
+ */
+
 #pragma once
 
 #include <SDL2/SDL.h>
