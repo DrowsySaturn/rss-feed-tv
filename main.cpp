@@ -83,13 +83,20 @@ private:
         {
             if (card.currentPos != card.expectedPos)
             {
-                if (card.expectedPos - card.currentPos < speed)
+                if (config->animate)
                 {
-                    card.currentPos = card.expectedPos;
+                    if (card.expectedPos - card.currentPos < speed)
+                    {
+                        card.currentPos = card.expectedPos;
+                    }
+                    else 
+                    {
+                        card.currentPos += speed;
+                    }
                 }
                 else 
                 {
-                    card.currentPos += speed;
+                    card.currentPos = card.expectedPos;
                 }
             }
         }
