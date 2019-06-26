@@ -1,0 +1,9 @@
+[requires]
+sdl2/2.0.9@bincrafters/stable
+sdl2_ttf/2.0.15@bincrafters/stable
+rapidxml/1.13@bincrafters/stable
+Poco/1.9.0@pocoproject/stable
+tinytoml/0.4@bincrafters/stable
+
+[generators]
+cmake
